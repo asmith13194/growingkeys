@@ -1,0 +1,140 @@
+nav{
+  border-bottom: 4px solid #ff7f00;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+h3 {
+  color: white;
+  background: transparent !important;
+  border-bottom: 5px solid #ff7f00 !important;
+}
+.big-boi, .commit-history{
+  height: 120vh;
+}
+
+@media (max-width: 600px) {
+  .big-boi {
+    height: 50vh;
+  }
+}
+.muzica-logo{
+  content: url("../muzicalogo5.png");
+  background-repeat: no-repeat;
+  width: 20%; /*or your image's width*/
+  height: 100%; /*or your image's height*/
+  /*border: solid 1px #424242;*/
+  border-radius: px;
+  margin-top: 3px;
+}
+.collaborator-container{
+  position: relative;
+  width: 100%;
+}
+
+#collaborators-list{
+  background: #424242;
+}
+
+#collaborators-list li{
+  margin-bottom: 0.5%;
+  border-bottom: 2px solid transparent;
+}
+
+.delete-collaborator{
+  background: #424242;
+  margin-left: 40%;
+}
+
+#hiding-spot{
+  /*display: none;*/
+}
+
+.big-boi{
+  margin: 0 0 0 0;
+}
+
+.modal-footer{
+  background-color: #424242;
+}
+
+.collab-form-css{
+  top:30% !important;
+  height:31% !important;
+}
+
+.commit-form-css{
+  top:20% !important;
+  height:62% !important;
+}
+
+.btn-flat{
+  color: white;
+  background-color: #ff7f00;
+}
+
+.commit-history{
+  margin: 0 0 0 0;
+  border-left: 2px solid #424242;
+  /*background-color: rgba(255, 107, 0, 0.2); rgba(0, 0, 0, 0)*/
+  overflow: scroll;
+}
+
+.main-body{
+  background-image: url("../images/Opacity60Logo60.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card{
+  opacity: 1;
+}
+
+.title{
+  color: white;
+}
+
+.new-collaborator{
+  position: fixed;
+  bottom: 2%;
+  left: 25%;
+  margin-top: 0%;
+}
+
+.new-commit{
+  position: fixed;
+  bottom: 2%;
+  left: 5%;
+  margin-top: 0%;
+}
+
+.nav-wrapper{
+  width:95%;
+}
+
+.exmaple-commit{
+  margin-top: 0%;
+  background-color: #2d2d2d;
+  color: white;
+}
+
+.exmaple-commit .card-content{
+  background: #424242;
+}
+.nav-gradient {
+  background: rgba(255,175,75,1);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255,175,75,1) 0%, rgba(255,175,75,1) 14%, rgba(255,127,0,1) 46%, rgba(255,127,0,1) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,175,75,1)), color-stop(14%, rgba(255,175,75,1)), color-stop(46%, rgba(255,127,0,1)), color-stop(100%, rgba(255,127,0,1)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(255,175,75,1) 0%, rgba(255,175,75,1) 14%, rgba(255,127,0,1) 46%, rgba(255,127,0,1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(255,175,75,1) 0%, rgba(255,175,75,1) 14%, rgba(255,127,0,1) 46%, rgba(255,127,0,1) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(255,175,75,1) 0%, rgba(255,175,75,1) 14%, rgba(255,127,0,1) 46%, rgba(255,127,0,1) 100%);
+  background: radial-gradient(ellipse at center, rgba(255,175,75,1) 0%, rgba(255,175,75,1) 14%, rgba(255,127,0,1) 46%, rgba(255,127,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff7f00', GradientType=1 );
+}
+.card-container{
+  padding-left: 0px !important;
+  padding-right: 5px !important;
+}
+
+.text-shadow{
+  text-shadow: 1px 1px 2px #ff7f00;
+}
