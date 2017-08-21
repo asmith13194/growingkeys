@@ -3,7 +3,7 @@ let growingKeys = require('./index.js')
 
 describe('Growing Keys', function() {
     it('should return an object with a growing key and a value of true', function() {
-      assert.equal({ 'hello': true, 'hellohello': true }, growingKeys(2,'hello'));
+      assert.deepEqual({ 'hello': true, 'hellohello': true }, growingKeys(2,'hello'));
     });
     it('should return "invalid string" if second input does not equal a string', function() {
       assert.equal('invalid string', growingKeys(3,3))
